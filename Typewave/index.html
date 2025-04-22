@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="typewavestyle.css">
+   <link rel="manifest" href="manifest.json">
+   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+   <title>Typewave</title>
+</head>
+<body>
+   <main>
+   <div id="keystroke-popup" style="display: none;">
+         <p id="keystroke-text"></p>
+   </div>
+      <div id="windowcontainer">
+         <div id="header">
+            <div id="buttons">
+               <div id="close"></div>
+               <div id="settings"></div>
+            </div>
+            <div id="title">Typewave</div>
+         </div>
+         <div id="window">
+            <div id="logo"></div>
+            <div id="selection">
+               <div id="name">Sound</div>
+               <div id="changer"></div>
+            </div>
+            <div id="soundbox">
+               <ul id="group-list"></ul>
+            </div>
+            <div id="message">Made by Noah 🤍</div>
+         </div>
+         <div id="settingscontainer"></div>
+      </div>
+   </main>
+
+<script src="typewavescript.js">
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then((registration) => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+    });
+  }
+</script>
+
+</body>
+</html>
