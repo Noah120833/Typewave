@@ -1,17 +1,17 @@
 const CACHE_NAME = 'typewave-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/typewavestyle.css',
-  '/typewavescript.js',
-  '/manifest.json',
-  '/sounds/src_audio_nk-cream_l.wav',
-  '/sounds/src_audio_nk-cream_enter.wav',
-  '/sounds/src_audio_nk-cream_backspace.wav',
-  '/sounds/src_audio_nk-cream_caps lock.wav',
-  '/sounds/src_audio_nk-cream_shift.wav',
-  '/sounds/src_audio_nk-cream_space.wav',
-  '/sounds/src_audio_nk-cream_tab.wav'
+"/Typewave/Typewave/index.html",
+"/Typewave/Typewave/typewavestyle.css",
+"/Typewave/Typewave/typewavescript.js",
+"/Typewave/Typewave/manifest.json",
+"/Typewave/Typewave/sounds/src_audio_nk-cream_l.wav",
+"/Typewave/Typewave/sounds/src_audio_nk-cream_enter.wav",
+"/Typewave/Typewave/sounds/src_audio_nk-cream_backspace.wav",
+"/Typewave/Typewave/sounds/src_audio_nk-cream_caps lock.wav",
+"/Typewave/Typewave/sounds/src_audio_nk-cream_shift.wav",
+"/Typewave/Typewave/sounds/src_audio_nk-cream_space.wav",
+"/Typewave/Typewave/sounds/src_audio_nk-cream_tab.wav"
+
 ];
 
 // Installieren des Service Workers
