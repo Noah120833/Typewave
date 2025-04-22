@@ -2,7 +2,7 @@
    "short_name": "Typewave",
    "name": "Typewave PWA",
    "description": "Eine Typing-Sound-App",
-   "start_url": "/index.html",
+   "start_url": "/Typewave/Typewave/index.html",
    "display": "standalone",
    "background_color": "#ffffff",
    "theme_color": "#000000",
